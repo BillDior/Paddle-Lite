@@ -2243,7 +2243,6 @@ struct CumsumParam : ParamBase {
   bool reverse{false};
 };
 
-<<<<<<< 6f7a13c38fded3f52f1d3f8e1ca0c41310ce9354
 struct SumParam : ParamBase {
   std::vector<lite::Tensor*> X{};
   lite::Tensor* Out{};
