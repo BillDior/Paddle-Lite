@@ -6,7 +6,7 @@
 
 # 编译 Paddle-Lite Arm MacOs 预测库 (armv8)
 
-./lite/tools/build_armmacos.sh
+/lite/tools/build_armmacos.sh
 
 **提示：** 编译过程中，如出现源码编译耗时过长，通常是第三方库下载过慢或失败导致。请在 git clone 完 Paddle-Lite 仓库代码后，手动删除本地仓库根目录下的 third-party 目录。编译脚本会自动下载存储于国内 CDN 的第三方依赖的压缩包，节省从 git repo 同步第三方库代码的时间。
 
