@@ -500,9 +500,6 @@ void sgemv_trans(const int M,
       memcpy(y, y_buf, M * sizeof(float));
     }
   }
-  delete zero_buf;
-  delete y_buf;
-  delete x_buf;
 }
 #else
 void sgemv_trans(const int M,
