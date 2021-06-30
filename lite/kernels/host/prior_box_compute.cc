@@ -13,6 +13,7 @@
 // limitations under the License.
 
 #include "lite/kernels/host/prior_box_compute.h"
+#include <algorithm>
 #include <string>
 #include <vector>
 #include "lite/backends/host/math/prior_box.h"
